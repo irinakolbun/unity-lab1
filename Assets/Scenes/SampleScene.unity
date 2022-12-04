@@ -135,8 +135,8 @@ GameObject:
   - component: {fileID: 490578846}
   - component: {fileID: 490578845}
   m_Layer: 0
-  m_Name: Square
-  m_TagString: Untagged
+  m_Name: Ground
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -330,6 +330,7 @@ GameObject:
   - component: {fileID: 2068543533}
   - component: {fileID: 2068543535}
   - component: {fileID: 2068543536}
+  - component: {fileID: 2068543537}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -451,3 +452,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &2068543537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068543532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc62c9a9b8d6b4793af8de65ed7ad00b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  jumpForce: 5
+  isJumping: 0
