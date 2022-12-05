@@ -6,7 +6,7 @@ public class PlayerLogic : MonoBehaviour
 {
 
     public float moveSpeed = 5.0f;
-    public float jumpForce = 5.0f;
+    public float jumpForce = 20.0f;
 
     public bool isJumping = false;
     private Rigidbody2D rb;
